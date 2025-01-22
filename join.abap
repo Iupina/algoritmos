@@ -16,7 +16,7 @@ SELECT t1~id, t1~nome, t1~cargo, t2~valor
   FROM zrt0742_emp AS t1
   INNER JOIN zrt0742_salario AS t2
   ON t1~id = t2~id
-  WHERE t1~nome LIKE 'J%' " Filtra nomes que começam com 'A'
+  WHERE t1~nome LIKE 'A%' " Filtra nomes que começam com 'A'
   AND t2~valor > 1000.
 *  = ( SELECT MAX( valor ) FROM zrt0742_salario WHERE id = t1~id ).
 
