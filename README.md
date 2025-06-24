@@ -16,6 +16,6 @@ Os algoritmos aqui implementados envolvem conceitos como:
 
 ✅ Integrações e APIs REST
 
-✅ SQL JOIN 
+✅ SQL JOIN
 
 ---
